@@ -50,11 +50,7 @@ Update Q-values using SARSA rule:
 𝑎
 )
 ]
-Q(s,a)←Q(s,a)+α⋅[r+γQ(s 
-′
- ,a 
-′
- )−Q(s,a)].
+
 
 #### Step3:
 After all episodes, derive π(s) = argmaxₐ Q(s,a). Compute value function V(s) = maxₐ Q(s,a) for each state.
